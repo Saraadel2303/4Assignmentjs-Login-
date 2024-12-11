@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <form id="signForm">
+        <div class="container text-center my-5">
+            <div class="inner w-75 m-auto p-5">
+                <h1 class="mb-3">Smart Login System</h1>
+                <input type="text" class="form-control my-3" id="signupname" placeholder="Enter your name">
+                <input type="email" class="form-control my-3" id="signupemail" placeholder="Enter your email">
+                <input type="password" class="form-control my-3" id="signuppass" placeholder="Enter your Password">
+
+
+                <p id="nameAlert" class="d-none text-danger m-3" >name is invalid</p> 
+                <p id="emailAlert" class="d-none text-danger m-3">email is invalid</p>
+                <p id="passAlert" class="d-none text-danger m-3">password is invalid</p>
+               
+                <p id="suceesAlert" class="d-none text-success m-3" >Success</p> 
+                <p id="allInputAlert" class="d-none text-danger m-3">All inputs is required</p>
+                <p id="existAlert" class="d-none text-danger m-3">email already exists</p>
+                <button class="btn btn-outline-info w-100 my-3 ">Sign Up</button>
+                <p class="text-white m-3 fs-5">You have an account? <a href="../sign in/index.html" class="text-white text-decoration-none">Signin</a></p>
+                
+            </div>
+        </div>
+    </form>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
