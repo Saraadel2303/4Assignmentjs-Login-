@@ -54,7 +54,7 @@ function addUser(){
         existAlert.classList.replace("d-block" , "d-none")
         
         setTimeout(function(){
-               window.location.href="../sign in/index.html"
+               window.location.href="../login.html"
         } , 2000)
         
     }

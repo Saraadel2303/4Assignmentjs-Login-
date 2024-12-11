@@ -37,7 +37,7 @@ function signin(){
       
     if(isLoginValid(usersData)==true){
         setTimeout(function(){
-            window.location.href="../welcome/index.html"
+            window.location.href="welcome/index.html"
      } , 2000)
     }else{
         incorrectAlertt.classList.replace("d-none" , "d-block")
